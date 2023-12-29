@@ -30,3 +30,4 @@
 ## Contributions and Thanks
 
 - [Mantodea](https://github.com/DDDDDragon) - For the ModShardLauncher.
+- [Nylux](https://github.com/DDDDDragon) - For various improvements to the template.
