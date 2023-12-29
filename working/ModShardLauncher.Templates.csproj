@@ -3,7 +3,7 @@
   <PropertyGroup>
     <!-- The package metadata. Fill in the properties marked as TODO below -->
     <!-- Follow the instructions on https://learn.microsoft.com/en-us/nuget/create-packages/package-authoring-best-practices -->
-    <PackageId>AdatumCorporation.Utility.Templates</PackageId>
+    <PackageId>ModShardLauncher.Templates</PackageId>
     <PackageVersion>1.0</PackageVersion>
     <Title>ModShardLauncherTemplate</Title>
     <Authors>zizani</Authors>
@@ -24,6 +24,10 @@
 
   <PropertyGroup>
     <LocalizeTemplates>false</LocalizeTemplates>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
