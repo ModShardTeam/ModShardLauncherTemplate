@@ -1,0 +1,7 @@
+# Copyright (C) 2023 Rémy Cases
+# See LICENSE file for extended copyright information.
+# This file is part of the Speedshard repository from https://github.com/remyCases/ModShardLauncherTemplate.
+
+obj/
+[Bb]in/
+*.sln
