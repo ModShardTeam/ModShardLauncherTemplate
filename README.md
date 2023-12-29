@@ -14,7 +14,14 @@
 ## How can I use it?
 
 #### Using Visual Studio:
-> TODO: include VS integration 
+> TODO: include VS integration
+
+#### Using Jetbrains Rider
+
+1. Clone the repository
+2. In Rider, select `New Solution` and `More Templates`
+3. Select `Install Template` and select the Template.
+4. Hit Reload. The template should now be available under the `Other` category at the bottom.
 
 #### Using the CLI:
 1. Move into the `ModSources` folder
