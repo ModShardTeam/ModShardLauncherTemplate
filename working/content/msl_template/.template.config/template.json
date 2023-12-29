@@ -1,11 +1,11 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "zizani",
-    "classifications": [ "Modding", "MSL" ],
+    "classifications": [ "Modding", "MSL", "Stoneshard" ],
     "identity": "Template.MSL",
     "name": "ModShardLauncherTemplate",
     "shortName": "msl",
-    "sourceName":"Template.MSL",
+    "sourceName":"__ProjectName__",
     "preferNameDirectory": true,
     "tags": {
       "language": "C#",

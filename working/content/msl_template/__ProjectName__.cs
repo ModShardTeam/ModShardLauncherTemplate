@@ -1,8 +1,8 @@
 ﻿using ModShardLauncher;
 using ModShardLauncher.Mods;
 
-namespace StoneShardMod;
-public class StoneShardMod : Mod
+namespace __ProjectName__;
+public class __ProjectName__ : Mod
 {
     public override string Author => "author";
     public override string Name => "mod_name";
