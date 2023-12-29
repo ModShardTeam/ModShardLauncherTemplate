@@ -3,13 +3,14 @@
     "author": "zizani",
     "classifications": [ "Modding", "MSL", "Stoneshard" ],
     "identity": "Template.MSL",
-    "name": "ModShardLauncherTemplate",
+    "name": "ModShardLauncherMod",
     "shortName": "msl",
     "sourceName":"__ProjectName__",
     "preferNameDirectory": true,
     "tags": {
       "language": "C#",
-      "type": "project"
+      "type": "project",
+      "platform": "ModShard Launcher"
     },
     "exclude": [
       "**/[Bb]in/**", 
