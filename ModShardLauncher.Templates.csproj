@@ -43,4 +43,22 @@
       <None Include="README.md" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="\docs\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/remyCases/ModShardLauncherTemplate/</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <ProjectUrl>https://github.com/remyCases/ModShardLauncherTemplate/</ProjectUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+
 </Project>
