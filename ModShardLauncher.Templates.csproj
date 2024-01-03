@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <PackageId>ModShardLauncher.Templates</PackageId>
-    <PackageVersion>1.3</PackageVersion>
-    <Version>1.3.0</Version>
+    <PackageVersion>1.4</PackageVersion>
+    <Version>1.4.0</Version>
     <Title>ModShardLauncherTemplate</Title>
     <Authors>zizani</Authors>
     <Description>Template to set up a basic mod with MSL.</Description>
@@ -34,9 +34,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.TemplateEngine.Tasks" Version="*" PrivateAssets="all" IsImplicitlyDefined="true"/>
   </ItemGroup>
-
+  
   <ItemGroup>
-    <Content Include="content\**\*" Exclude="content\**\bin\**;content\**\obj\**" />
+    <Content Include="template\**\*" Exclude="template\**\bin\**;template\**\obj\**" />
     <Compile Remove="**\*" />
   </ItemGroup>
 
