@@ -3,6 +3,7 @@
   <PropertyGroup>
     <PackageId>ModShardLauncher.Templates</PackageId>
     <PackageVersion>1.3</PackageVersion>
+    <Version>1.3.0</Version>
     <Title>ModShardLauncherTemplate</Title>
     <Authors>zizani</Authors>
     <Description>Template to set up a basic mod with MSL.</Description>
