@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <PackageId>ModShardLauncher.Templates</PackageId>
-    <PackageVersion>1.4</PackageVersion>
-    <Version>1.4.0</Version>
+    <PackageVersion>1.5</PackageVersion>
+    <Version>1.5.0</Version>
     <Title>ModShardLauncherTemplate</Title>
     <Authors>zizani</Authors>
     <Description>Template to set up a basic mod with MSL.</Description>
@@ -12,7 +12,7 @@
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
     <PackageType>Template</PackageType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
