@@ -24,9 +24,12 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+
+      - name: LS
+        run: ls -la
       
       - name: Pull
-        run : git pull
+        run: git pull origin main
 
       - name: Commit & Push changes
         uses: Andro999b/push@v1.3
