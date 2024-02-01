@@ -11,7 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
 
       - name: Set Version
         id: package_version
@@ -25,14 +27,12 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-      - name: LS
-        run: ls -la
-      
-      - name: Pull
-        run: git pull origin main
+      - name: Commit Files
+        run: git commit -a -m "Updated version with CI."
 
-      - name: Commit & Push changes
-        uses: Andro999b/push@v1.3
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: 'main'
+          branch: main
+
