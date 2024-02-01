@@ -20,7 +20,7 @@ jobs:
           file: ./ModShardLauncher.Templates.csproj
           version: ${{ github.ref_name  }}
 
-      - name: Commit New Version
-        run: |
-          git commit -am "CI: updated version from tag"
-          git push https://${{ github.token  }}@github.com/remyCases/ModShardLauncherTemplate
+      - name: Commit & Push changes
+        uses: Andro999b/push@v1.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
