@@ -20,6 +20,11 @@ jobs:
           file: ./ModShardLauncher.Templates.csproj
           version: ${{ github.ref_name  }}
 
+      - name: Set user info
+        run: |
+          git config user.email "<>"
+          git config user.name "CI"
+
       - name: Commit & Push changes
         uses: Andro999b/push@v1.3
         with:
