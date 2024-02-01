@@ -22,8 +22,8 @@ jobs:
 
       - name: Set user info
         run: |
-          git config user.email "<>"
-          git config user.name "CI"
+          git config user.name github-actions
+          git config user.email github-actions@github.com
 
       - name: Commit & Push changes
         uses: Andro999b/push@v1.3
