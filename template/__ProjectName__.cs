@@ -8,6 +8,7 @@ public class __ProjectName__ : Mod
     public override string Name => "mod_name";
     public override string Description => "mod_description";
     public override string Version => "1.0.0.0";
+    public override string TargetVersion => "0.8.2.10";
 
     public override void PatchMod()
     {
