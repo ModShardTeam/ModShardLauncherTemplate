@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <PackageId>ModShardLauncher.Templates</PackageId>
-    <PackageVersion>1.5</PackageVersion>
     <Version>1.5.1</Version>
     <Title>ModShardLauncherTemplate</Title>
     <Authors>zizani</Authors>
