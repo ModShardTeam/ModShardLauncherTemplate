@@ -30,7 +30,7 @@ jobs:
       - name: Commit Files & Pull
         run: |
           git commit -a -m "Updated version with CI."
-          git pull --rebase
+          git pull origin main --rebase
 
       - name: Push Changes
         uses: ad-m/github-push-action@master
