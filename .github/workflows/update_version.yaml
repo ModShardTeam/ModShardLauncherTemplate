@@ -27,8 +27,10 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
 
-      - name: Commit Files
-        run: git commit -a -m "Updated version with CI."
+      - name: Commit Files & Pull
+        run: |
+          git commit -a -m "Updated version with CI."
+          git pull --rebase
 
       - name: Push Changes
         uses: ad-m/github-push-action@master
