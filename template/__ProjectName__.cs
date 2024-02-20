@@ -1,4 +1,8 @@
-﻿using ModShardLauncher;
+﻿// Copyright (C)
+// See LICENSE file for extended copyright information.
+// This file is part of the repository from .
+
+using ModShardLauncher;
 using ModShardLauncher.Mods;
 
 namespace __ProjectName__;
