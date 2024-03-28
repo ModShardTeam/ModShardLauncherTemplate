@@ -1,6 +1,9 @@
-v1.7.0 - Cheesy Chimera
+v1.7.1 - Cheesy Chimera
 - lib folder
 - fix csproj of template projects
+
+v1.7.0 - Cheesy Chimera
+- copyright header
 
 v1.6.0 - Balsamic Baphomet
 - targetversion field
