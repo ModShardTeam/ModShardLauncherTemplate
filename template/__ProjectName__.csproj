@@ -8,13 +8,13 @@
 
 <ItemGroup>
     <Reference Include="ModShardLauncher">
-      <HintPath>..\..\ModShardLauncher.dll</HintPath>
+      <HintPath>lib\ModShardLauncher.dll</HintPath>
     </Reference>
     <Reference Include="UndertaleModLib">
-      <HintPath>..\..\UndertaleModLib.dll</HintPath>
+      <HintPath>lib\UndertaleModLib.dll</HintPath>
     </Reference>
     <Reference Include="UndertaleModTool">
-      <HintPath>..\..\UndertaleModTool.dll</HintPath>
+      <HintPath>lib\UndertaleModTool.dll</HintPath>
     </Reference>
   </ItemGroup>
   
