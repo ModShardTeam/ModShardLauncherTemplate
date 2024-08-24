@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.8.0 - Deep-fried Dantalion]
+
+### Added
+
+- conditional commit/push if nothing was changed in the workflow
+
+### Changed
+
+- workflow is not using pwsh anymore
+- fixes the checkout not cloning the latest commit that was pushed by the previous job
+- updates the project url in the readme and the csproj
+- updates the path of main libs to ensure consistency with the new version of MSP
+
 ## [v1.7.2 - Cheesy Chimera]
 
 ### Changed 
