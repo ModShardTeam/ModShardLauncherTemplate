@@ -9,22 +9,24 @@
 ## How can I install it?
 
 1. Install the latest [.NET Core SDK](https://dot.net).
-2. Run `dotnet new install ModShardLauncher.Templates` to install the project template.
-3. If that doesn't work for some reason, try `dotnet new --install ModShardLauncher.Templates`.
+2. Run `dotnet new install ModShardLauncher.Templates` to install the project template if you're using a recent version of `dotnet`.
+3. If you use an earlier version of `dotnet`, try `dotnet new --install ModShardLauncher.Templates` instead.
 
 ## How can I use it?
 
 #### Using Visual Studio:
+
 > TODO: include VS integration
 
 #### Using Jetbrains Rider
 
-1. run `git clone https://github.com/remyCases/ModShardLauncherTemplate.git` in the desired folder.
+1. run `git clone https://github.com/ModShardTeam/ModShardLauncherTemplate.git` in the desired folder.
 2. In Rider, select `New Solution` and `More Templates`.
 3. Select `Install Template` and select the `template` folder.
 4. Hit Reload. The template should now be available under the `ModShard Launcher` category near the bottom.
 
 #### Using the CLI:
+
 1. Move into the `ModSources` folder
 2. Run `dotnet new msl --name "MyProject"` along with any other custom options to create a project from the template.
 

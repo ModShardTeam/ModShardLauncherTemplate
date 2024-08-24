@@ -7,7 +7,7 @@
     <Authors>zizani</Authors>
     <Description>Template to set up a basic mod with MSL.</Description>
     <PackageTags>msl;templates</PackageTags>
-    <PackageProjectUrl>https://github.com/remyCases/ModShardLauncherTemplate</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/ModShardTeam/ModShardLauncherTemplate</PackageProjectUrl>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and make your template available in dotnet new search.-->
     <PackageType>Template</PackageType>
@@ -47,18 +47,16 @@
     <None Include="icon.png" Pack="true" PackagePath="\"/>
   </ItemGroup>
 
-
   <PropertyGroup>
-    <RepositoryUrl>https://github.com/remyCases/ModShardLauncherTemplate/</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ModShardTeam/ModShardLauncherTemplate</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup>
-    <ProjectUrl>https://github.com/remyCases/ModShardLauncherTemplate/</ProjectUrl>
+    <ProjectUrl>https://github.com/ModShardTeam/ModShardLauncherTemplate</ProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
-
 
 </Project>
